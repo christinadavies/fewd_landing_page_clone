@@ -432,7 +432,6 @@ th {
   padding: 0;
 }
 body {
-  background-color: LightGray;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #838994;
@@ -440,7 +439,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 div {
-  border: 1px solid Chocolate;
   padding: 1em 0;
 
 }
@@ -485,7 +483,7 @@ h3 {
   background-repeat: no-repeat;
   height: 45.938rem;
   text-align: center;
-  padding: 12em 0;
+  padding: 15em 0;
   overflow: auto;
 }
 h1 {
@@ -530,4 +528,42 @@ h2 {
   font-size: 26px;
   font-weight: 200;
   color: black;
+}
+.social {
+  text-align: center;
+  width: 100%;
+  padding-top: 25em;
+  padding-bottom: 8rem;
+}
+h4 {
+  padding-top: 0.5em;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+.links {
+  padding-bottom: 4rem;
+  margin: 0 auto;
+}
+.social li {
+  display: inline-block;
+  list-style-type: none;
+  border: 1px solid #EAEBEC;
+  border-radius: 50%;
+  padding: 8px;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 10px;
+}
+.social li:hover {
+  cursor: pointer;
+}
+.twitter {
+  color: #55ACEE;
+}
+.facebook {
+  color: #4C66A4;
+}
+.instagram {
+  color: #3f729b;
 }
