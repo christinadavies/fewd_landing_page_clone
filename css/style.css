@@ -447,6 +447,9 @@ div {
 /* Navigation Section */
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 .content,
 h1,
@@ -509,4 +512,22 @@ h3 {
 }
 .big-button:hover {
   background-color: #d63d00;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 200;
+  color: black;
+  text-align: center;
+}
+.devices li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  width: 17rem;
+  margin-right: -4px;
+}
+.caption {
+  font-size: 26px;
+  font-weight: 200;
+  color: black;
 }
